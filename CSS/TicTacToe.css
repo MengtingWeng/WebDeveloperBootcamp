@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+
+th {
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	margin:0;
+}
+
+tr th {
+ 	border-top-width: 0;
+}
+
+tr:nth-of-type(3) th {
+ 	border-bottom-width: 0;
+}
+
+
+tr th {
+	border-left-width: 0;
+}
+
+tr th:nth-of-type(3) {
+	border-right-width: 0;
+}
